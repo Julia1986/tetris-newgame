@@ -108,11 +108,13 @@ button:active {
 
 #start {
     position: absolute;
+    top: 100px;
     left: 0;
 }
 
 #pause {
     position: absolute;
+    top: 100px;
     right: 0;
 }
 
