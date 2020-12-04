@@ -140,8 +140,27 @@ button:active {
 }
 
 @media all and (max-width: 1500px) {
-    * {
-        display: block;
-        transform: scale(0.5);
+    .main {
+        width: 704px;
+        height: 450px;
+        border: 1px solid  #959595;
+        font-size: 0;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translate(-5%, -50%);
     }
+    
+    .cell {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #959595;
+        display: inline-block;
+    }
+    #next-tetro {
+        position: absolute;
+        top: 80%;
+        right: 3%;
+        font-size: 0;
+      }
 }
