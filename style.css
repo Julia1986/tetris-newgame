@@ -139,7 +139,7 @@ button:active {
     display: none;
 }
 
-@media all and (max-width: 1500px) {
+@media all and (max-width: 1650px) {
     .main {
         width: 704px;
         height: 450px;
