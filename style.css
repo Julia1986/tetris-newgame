@@ -51,7 +51,8 @@
     font-size: 36px;
     width: 120px;
     height: 43px;
-    left: 2275px;
+    right: 5%;
+    /*left: 2275px;*/
 }
 
 .bg-game {
@@ -73,13 +74,16 @@
     font-size: 36px;
     width: 120px;
     height: 43px;
-    left: 2275px;
+    right: 5%;
+    /*left: 2275px;*/
 }
 
 #next-tetro {
     position: absolute;
-    top: 200px;
-    left: 200px;
+    top: 60%;
+    /*left: 200px;
+    float: right;*/
+    right: 4%;
     font-size: 0;
   }
 
@@ -133,4 +137,11 @@ button:active {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
+}
+
+@media all and (max-width: 1200px) {
+    #game {
+        display: block;
+        transform: scale(0.5);
+    }
 }
