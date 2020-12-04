@@ -46,7 +46,7 @@
 
 #game .level {
     position: absolute;
-    top: 150px;
+    top: 450px;
     color: #ffffff;
     font-size: 36px;
     width: 120px;
@@ -69,7 +69,7 @@
 
 #game .score {
     position: absolute;
-    top: 300px;
+    top: 600px;
     color: #ffffff;
     font-size: 36px;
     width: 120px;
@@ -87,14 +87,14 @@
     font-size: 0;
   }
 
-.place {
+/*.place {
     display: inline-block;
     position: relative;
     width: 630px;
-    position: absolute;
+    /*position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
-}
+}*/
 
 button {
     border: none;
@@ -102,7 +102,7 @@ button {
     width: 300px;
     height: 100px;
     font-size: 36px;
-    margin: 20px auto 0;
+    /*margin: 20px auto 0;*/
 }
 
 button:focus,
@@ -113,13 +113,13 @@ button:active {
 #start {
     position: absolute;
     top: 100px;
-    left: 0;
+    right: 4%;
 }
 
 #pause {
     position: absolute;
-    top: 100px;
-    right: 0;
+    top: 250px;
+    right: 4%;
 }
 
 #start:hover,
