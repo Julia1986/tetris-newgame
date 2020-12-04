@@ -139,8 +139,8 @@ button:active {
     display: none;
 }
 
-@media all and (max-width: 1920px) {
-    #game {
+@media all and (max-width: 1500px) {
+    * {
         display: block;
         transform: scale(0.5);
     }
