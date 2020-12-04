@@ -46,7 +46,7 @@
 
 #game .level {
     position: absolute;
-    top: 450px;
+    top: 350px;
     color: #ffffff;
     font-size: 36px;
     width: 120px;
@@ -69,7 +69,7 @@
 
 #game .score {
     position: absolute;
-    top: 600px;
+    top: 500px;
     color: #ffffff;
     font-size: 36px;
     width: 120px;
@@ -112,13 +112,13 @@ button:active {
 
 #start {
     position: absolute;
-    top: 100px;
+    top: 50px;
     right: 1%;
 }
 
 #pause {
     position: absolute;
-    top: 250px;
+    top: 200px;
     right: 1%;
 }
 
